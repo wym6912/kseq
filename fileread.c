@@ -22,5 +22,6 @@ int main(int argc, char *argv[])
     {
         fprintf(stdout, "%s\n", file_t -> seq.s);
     }
+    kseq_destroy(file_t);
     return 0;
 }
